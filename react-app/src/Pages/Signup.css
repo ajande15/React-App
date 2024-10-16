@@ -1,0 +1,115 @@
+.signup_form_wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_form_wrapper .signup__form {
+    width: 500px;
+    height: 600px;
+    border-radius: 6px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* border: 2px solid rgb(0, 0, 28); */
+
+    box-shadow: 2px 2px 14px 2px #efefef;
+}
+
+.signup_form_wrapper .signup__form .signup__title {
+    font-family: "Afacad Flux",sans-serif;
+    font-size: 80px;
+    color:var(--primaryColor2);
+}
+
+.signup_form_wrapper .signup__form .google__btn {
+    background-color: var(--primaryColor2);
+    border: none;
+    width: 220px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 18px;
+    font-family: "Moderustic",sans-serif;
+    transition: 0.5s;
+}
+
+.signup_form_wrapper .signup__form .google__btn:hover {
+    background-color: var(--hoverColor);
+}
+
+.signup_form_wrapper .signup__form .line {
+    background-color: var(--secondaryColor);
+}
+
+.signup_form_wrapper .signup__form .line p {
+    color:var(--mainColor);
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+}
+
+.signup_form_wrapper .signup__form .signup__inputs {
+    width: 90%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.signup_form_wrapper .signup__form .signup__inputs input {
+    border: none;
+    text-indent: 16px;
+    width: 90%;
+    height: 50px;
+    border-radius: 6px;
+    outline: none;
+    font-family: "Moderustic",sans-serif;
+    font-size: 14px;
+    background-color: var(--whiteColor);
+}
+
+.signup_form_wrapper .signup__form .signup__inputs input::placeholder {
+    font-family: "Moderustic",sans-serif;
+    font-size: 16px;
+    color:#c5c2c2;
+}
+
+.signup__btn {
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 22px;
+    color: var(--primaryColor2);
+    border: 1px solid var(--primaryColor2);
+    transition:0.5s;
+}
+
+.signup__btn:hover {
+    background-color: var(--hoverColor);
+    color:#fff;
+}
+
+.alreadygotacc {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 22px;
+}
+
+.signin__txt {
+    border-bottom: 1px solid var(--hoverColor);
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--hoverColor);
+}

@@ -1,0 +1,117 @@
+.hire_us_content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.hire_us_content .left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire_us_content .left .title {
+    font-family: "Rubik",sans-serif;
+    color:var(--mainColor);
+    font-size: 58px;
+}
+
+.hire_us_content .left .arrow__img {
+    transform: rotate(200deg);
+    width: 300px;
+}
+
+.hire_us_content .left .hire__btn {
+    border: none;
+    border: 1px solid var(--mainColor);
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hire_us_content .right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire_us_content .right .secondary__txt {
+    font-family: "Poppins",sans-serif;
+    color: var(--primaryColor2);
+    font-size: 48px;
+}
+
+.hire_us_content .right .reviews {
+    display: flex;
+    width: 95%;
+    margin-top: 25px;
+}
+
+.hire_us_content .right .reviews .review {
+    width:300px;
+    height: 300px;
+    margin: 10px;
+    background-color: var(--whiteColor);
+    border-radius: 6px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hire_us_content .right .reviews .review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.hire_us_content .right .reviews .review .review__txt {
+    font-family: "Rubik",sans-serif;
+    color:var(--mainColor);
+    margin: 10px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.hire_us_content .right .reviews .review .review__txt .hide__txt {
+    display: none;
+}
+
+.hire_us_content .right .reviews .review .review__txt .reveal__txt {
+    color: var(--primaryColor2);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hire_us_content .right .reviews .reviews__info {
+    display: flex;
+}
+
+.hire_us_content .right .reviews .reviews__info .star {
+    color:var(--primaryColor);
+}
+
+.hire_us_content .right .reviews .reviews__info .rated__star {
+    color: var(--primaryColor2);
+}
+
+.hire_us_content .right .reviews .reviews__info .rate__us {
+    font-family: "Inter",sans-serif;
+    color:var(--primaryColor);
+    margin-left:10px;
+    cursor: pointer;
+}

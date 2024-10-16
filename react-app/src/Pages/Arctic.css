@@ -1,0 +1,200 @@
+.website__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top {
+    height: 80px;
+    width: 100%;
+    background-color: var(--whiteColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.header__top .left__header {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__top .left__header .logo {
+    font-family: "Poppins",sans-serif;
+    font-size: 36px;
+    color:var(--mainColor);
+    animation: delays 0.5s alternate;
+}
+
+.header__top .center__header {
+    flex:1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.header__top .center__header .link {
+    font-family: "Poppins",sans-serif;
+    color:var(--mainColor);
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    animation: delays 1s alternate;
+}
+
+.header__top .center__header .link:hover {
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+}
+
+.header__top .center__header .link__active {
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+}
+
+.header__top .right__header {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__top .right__header .signup__btn {
+    border: none;
+    background-color: var(--primaryColor2);
+    color:var(--mainColor);
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    color:var(--whiteColor);
+    font-family: "Poppins",sans-serif;
+    animation: delays 2s alternate;
+}
+
+/*Space Between Section*/
+
+.space__between {
+    width: 100%;
+    height: 10vh;
+}
+
+/*Hero Section*/
+
+.hero__section {
+    width: 100%;
+    height:90vh;
+    display: flex;
+}
+
+.hero__section .left__section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__section .left__section .title {
+    font-family: "Poppins",sans-serif;
+    font-size: 80px;
+    color: var(--primaryColor2);
+    margin-top: 100px;
+    font-weight: bold;
+    animation: delays 3s alternate;
+}
+
+.hero__section .left__section .subtitle {
+    font-family: "Rubik",sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    color: var(--primaryColor);
+    font-weight: 300;
+    animation: delays 4s alternate;
+}
+
+.hero__section .left__section .subtitle .exclamation {
+    color: var(--primaryColor2);
+    font-weight: bold;
+    font-size: 100px;
+    animation: delays 5s alternate;
+}
+
+.hero__section .left__section .btn__wrapper {   
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    margin-top: 30px;
+    animation: delays 6s alternate;
+}
+
+.hero__section .left__section .btn__wrapper .explore__btn {
+    width: 210px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+    outline: none;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+}
+
+.hero__section .left__section .btn__wrapper .login__btn {
+    width: 210px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: var(--whiteColor);
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor2);
+    outline: none;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+}
+
+.hero__section .right__section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: delays 6s alternate;
+}
+
+@keyframes delays {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    } 
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero__section .right__section .img__wrapper {
+    width: 450px;
+    height:650px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hero__section .right__section .img__wrapper img {
+    width: 70%;
+    height: 90%;
+    object-fit: cover;
+}
